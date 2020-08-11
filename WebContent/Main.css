@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.menu > li {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    background-color: gray;
+}
+.menu > li:hover ul{
+    display: block;
+}
+.menu > li > ul{
+    display:none;
+    position: absolute;
+    top:5px;
+    left: 0;
+}
+
+.menu > li > ul >li{
+display: inline-block;
+    width: 150px;
+
+    background-color: rgb(164, 161, 158);
+}
+.login{
+    
+    position: absolute;
+    top: 93px;
+    left: 90%;
+    
+}
+section{
+    margin-top: 20px;
+    height: 500px;
+    float: left;
+    width: 70% ;
+}
+aside{
+     margin-top: 20px;
+    text-align: center;
+    height: 500px;
+}
+footer{
+    text-align: center;
+}

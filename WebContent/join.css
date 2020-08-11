@@ -1,0 +1,36 @@
+
+h2{
+    text-align: center;
+    width: 498px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+}
+.joinbar{
+    height: 500px;
+    width: 500px;
+}
+.in{
+    padding-left: 10px;
+}
+input{
+    padding-left: 10px;
+}
+.name{
+    text-align: center;
+}
+#back{
+    text-align: center;
+    width : 498px;
+    margin-top: 10px;
+}
+#back > input{
+    padding-left: 0;
+    width: 100px;
+    height: 35px;
+}
