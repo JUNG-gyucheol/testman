@@ -156,6 +156,7 @@ window.onload = function(){
    		</td>
    	</tr>
    </table>
+   dsadadad
   	<div id="sub">
   	<input type="hidden" value="${bean.num }" id="num">
   	<input type="button" value="답글쓰기" id="sub1" onclick="location.href='reWriteGetFormProc?num=${bean.num }'">
